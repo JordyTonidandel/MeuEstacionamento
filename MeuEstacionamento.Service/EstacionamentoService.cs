@@ -51,7 +51,7 @@ namespace MeuEstacionamento.Service
             }
         }
 
-        private void ResetarAlerta(Estacionamento estacionamento)
+        private static void ResetarAlerta(Estacionamento estacionamento)
         {
             estacionamento.ExibirAlerta = false;
             estacionamento.MensagemAlerta = string.Empty;

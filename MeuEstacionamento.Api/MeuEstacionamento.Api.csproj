@@ -24,8 +24,4 @@
     <ProjectReference Include="..\MeuEstacionamento.Service\MeuEstacionamento.Service.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Configuration\" />
-  </ItemGroup>
-
 </Project>
